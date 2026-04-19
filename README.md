@@ -45,18 +45,7 @@ diabetes-prediction-ml/
 - **Features:** gender, age, hypertension, heart_disease, smoking_history, bmi, HbA1c_level, blood_glucose_level
 - **Target:** diabetes (binary: 0 = No, 1 = Yes)
 
-## Tech stack
 
-Python · Pandas · NumPy · Scikit-learn · Seaborn · Matplotlib · Statsmodels · Google Colab
-
-## How to run
-
-1. Open `diabetes_prediction_analysis.ipynb` in Google Colab
-2. Download the dataset from Kaggle and upload to your Google Drive
-3. Update the file path in cell 2: `df = pd.read_csv("/content/drive/MyDrive/diabetes_prediction_dataset.csv")`
-4. Runtime → Run all
-
-## Potential improvements
 
 - Apply SMOTE oversampling to address class imbalance and improve recall on diabetic cases
 - Add SHAP values to explain which features drive individual predictions
